@@ -1,0 +1,33 @@
+#Učitajte cijeli broj N, pa nakon toga učitavajte decimalne brojeve tako dugo dok ne učitate N
+brojeva koji su veći od 0 i manji od 100. Ispišite najmanji i najveći učitani decimalni broj.
+
+N = int(input("Napisi N broj: "))
+
+counter = 0
+min_val = None
+max_val = None
+
+while True:
+    x = float(input("Napisi decimalni broj: "))
+
+    if 0 < x < 100:
+        counter += 1
+
+        if counter == 1:
+            min_val = x
+            max_val = x
+            
+        else:
+            if x < min_val:
+                min_val = x
+            if x > max_val:
+                max_val = x
+
+        if counter == N:
+            break
+    else:
+        print("Napisi jos jedan broj ali da je ispravan")  # samo kad je neispravan
+
+print("Gotovo")
+print("Najmanji:", min_val)
+print("Najveci:", max_val)
