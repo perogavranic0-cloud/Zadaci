@@ -1,0 +1,21 @@
+# Zadatak 3: Prosjek učitanih dvozanemnkastih brojeva
+
+Opis zadatka:
+
+Program učitava cijele brojeve sve dok se ne unese -1
+
+Od svih učitanih brojeva uzimaju se samo:
+
+-pozitivni
+-dvoznamenkasti
+
+Na kraju se ispisuje njihov prosjek
+
+Logika:
+
+-Koristi se while petlja dok se ne unese -1
+-Brojevi u rasponu 10-99 se zbrajaju
+-Broji se koliko ih ima
+-Na kraju se računa prosjek
+
+python zadatak3.py
