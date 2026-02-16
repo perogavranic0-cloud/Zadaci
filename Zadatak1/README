@@ -3,7 +3,23 @@
 ## Opis zadatka:
 
 Program najprije učitava cijeli broj  N
-Nakon toga učitava decimalne brojeve dok se ne unese točno N brojeva koji su:
+Nakon toga korisnik učitava decimalne brojeve dok se ne unese točno N brojeva koji su:
 
 -veći od 0
 -manji od 100
+
+
+Program prestaje s unosom kada je uneseno točno N ispravnih brojeva.
+
+Na kraju se printa najveći i najmanji uneseni broj.
+
+## Kako program radi?
+
+- Koristi se beskonačna while petlja
+- Broji se samo broj ispravnih unosa
+- Prvi ispravni broj postaje početna vrijednost za minimum i maksimum
+- Svaki sljedeći broj se uspoređuje i po potrebi ažurira min/maxu
+
+python zadatak1.py
+
+
