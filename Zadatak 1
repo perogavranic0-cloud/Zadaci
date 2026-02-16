@@ -1,5 +1,5 @@
 #Učitajte cijeli broj N, pa nakon toga učitavajte decimalne brojeve tako dugo dok ne učitate N
-brojeva koji su veći od 0 i manji od 100. Ispišite najmanji i najveći učitani decimalni broj. (3b
+brojeva koji su veći od 0 i manji od 100. Ispišite najmanji i najveći učitani decimalni broj.
 
 N = int(input("Napisi N broj: "))
 
