@@ -1,3 +1,6 @@
+#Učitavajte cijele brojeve tako dugo dok ne učitate -1, nakon čega ispišite prosjek svih učitanih pozitivnih dvoznamenkastih brojeva.
+
+
 kolikoimabrojeva = 0   # koliko ima brojeva
 zbrojbrojeva = 0   # njihov zbroj
 while True:
