@@ -19,3 +19,5 @@ Logika:
 -Zatim pojedinačne brojeve
 -Odmah nakon unosa broja program ispisuje rezultat za taj broj
 -Ako nije djeljiv sa 3 ni 4 onda se izvršava else dio
+
+python zad2.py
