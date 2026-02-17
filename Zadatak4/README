@@ -2,3 +2,16 @@
 
 Opis zadatka:
 
+Program prvo učitava cijeli broj N
+Nakon toga korisnik učitava cijele brojeve dok ponovo ne učita N
+Kada se unese ponovo broj N, program ispisuje broj unesen neposredno prije njega.
+
+## Logika:
+
+-Učitava se poćetna vrijednost N
+-Koristi se beskonačna while petlja
+-Svaki uneseni broj sprema se u varijablu "prethodni"
+-Kada se ponovo unese broj N, ispisuje se vrijednost varijable "prethodni"
+-Petlja se prekida pomoću "break"
+
+python zadatak4.py
